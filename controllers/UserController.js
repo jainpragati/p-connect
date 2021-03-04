@@ -4,7 +4,6 @@ const _ = require('lodash');
 const AWS = require('aws-sdk');
 require('dotenv').config();
 const multer = require('multer');
-const uploadLocation = require('../../client/src/uploads/uploadsLocation');
 const multerS3 = require('multer-s3');
 const { authenticateAccess } = require('../middlewares/authentication');
 const decode = require('jwt-decode');
