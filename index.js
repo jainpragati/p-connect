@@ -1,6 +1,5 @@
 const express = require('express');
 const { mongoose } = require('./config/database');
-const uploadLocation = require('../client/src/uploads/uploadsLocation');
 const { router } = require('./config/routes');
 const cors = require('cors');
 const app = express();
